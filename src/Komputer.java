@@ -15,7 +15,7 @@ public class Komputer {
                 System.out.println("CPU : "+this.cpu.getCPUData()+" GHz dicabut");
         }
         public void cetakinfo(){
-                System.out.println("Spesifikasi :\n CPU : "+cpu.getCPUData()+"GHz");
+                System.out.println("Spesifikasi : CPU : "+cpu.getCPUData()+" GHz");
         }
 
 }

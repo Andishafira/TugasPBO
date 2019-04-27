@@ -1,6 +1,10 @@
 public class Komputer {
 
         private CPU cpu = new CPU();
+
+        Komputer(CPU cpu){
+                this.cpu = cpu;
+        }
         Komputer(){}
 
         public void memasang(CPU cpu){
